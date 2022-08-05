@@ -1,0 +1,326 @@
+@media screen and (max-width:1024px){
+    
+    body{
+     background-color: whitesmoke;
+     transition: background-color 1.5s; 
+       
+     }
+#icon{
+    
+width:30px;    
+    
+}
+
+.dark-theme
+{
+      
+background-color: #333333;
+
+
+    color:white;
+
+
+ transition: background-color 1.5s; 
+   
+}
+ 
+.dark-theme .F{
+color: white;
+background-color:#333333;
+border-color: gray ;
+    }
+ 
+.dark-theme .side{
+     
+    background-color: black; 
+     
+ }
+ 
+ .dark-theme .side a{
+     
+   color: pink; 
+     
+ }
+
+ 
+.side
+{
+   width:0px;
+  height:1000px;
+  position: absolute;
+  background-color: slategray;
+  overflow: hidden;  
+  transition: 0.5s;
+  padding-top: 0px;
+  margin-top: 10;
+  top: 0px;
+  
+  
+}
+.side a {
+  padding: 0px 10px 10px 20px;
+  text-decoration: none;
+   font-size: 25px;
+  color: palegreen;
+    transition: 0.1s;
+	 display: block;
+}
+.side a:hover
+{
+  color: #f1f1f1;
+  background-color:green;
+}
+.clo
+{
+position:absolute;
+right: 10px;
+top: 4px;
+font-size: 25px;
+  margin-left: 30px;
+}
+.imga{
+    
+ position:absolute;
+ left: 4px;
+ top: 2px;  
+    
+    
+}
+
+
+.OPEN{
+    
+  background-color:black;  
+    
+    
+}
+
+
+input {
+    
+ width: 75px;  
+  height: 20px;
+    
+    
+}
+
+
+
+div  input::placeholder {
+    
+    text-align: center;
+    color: red;
+}
+
+.F{
+    max-width: 500px auto;
+    height: 300px;
+border: bisque 0.5px dotted;
+background-color:lightsteelblue ;
+
+
+
+    
+}
+
+
+div input {
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+  box-shadow: 0 blue;  
+  text-align: center;
+border-color: black;
+}
+
+input:focus{
+    
+    box-shadow: 0 0 20px 0 aqua;
+ transition:.5s;
+ color: #098a00;
+}
+
+
+
+ .age{
+     
+   margin-top: 20px;
+   width: 100%;  
+     /* vere peva drawa ok pash zheba */
+ 
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .imga2{
+     
+   position: absolute;  
+   right: 14px;
+   top: 13px;
+     
+ }
+ 
+ 
+ 
+ 
+ #res {
+ 
+     
+   font-family: arial;
+   
+   text-align: right;
+   
+   margin-top: 25px;
+   margin-right: 5px;
+   
+ }
+h4{
+    
+    text-align: center;
+}
+
+    
+}
+
+@media screen and (max-width:768px)
+{
+div input{
+
+margin-left: 17%;
+
+}
+
+}
+@media screen and (max-width:504px)
+{
+
+div input
+{
+    
+    margin-left: 59px;
+    
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px)
+{
+
+div input
+{
+    
+    margin-left: 49px;
+}
+    .side{
+        
+       height:1500px ;    
+}
+}
+@media screen and (max-width:428px)
+{
+
+div input
+{
+    
+    margin-left: 38px;
+    
+}
+}
+
+@media screen and (max-width:412px)
+{
+
+div input
+{
+    
+    margin-left: 34px;
+    
+}
+}
+
+
+
+@media screen and (max-width:411px)
+{
+
+div input
+{
+    
+    margin-left: 32px;
+    
+}
+}
+
+@media screen and (max-width:384px)
+{
+
+div input
+{
+    
+    margin-left: 29px;
+    
+}
+}
+
+
+
+@media screen and (max-width:375px)
+{
+
+div input
+{
+    
+    margin-left: 27px;
+    
+}
+}
+
+
+@media screen and (max-width:360px)
+{
+
+div input
+{
+    
+    margin-left: 20px;
+    
+}
+}
+
+@media screen and (max-width:320px)
+{
+
+div input
+{
+    
+    margin-left: 10px;
+    
+}
+}
+
+
+@media screen and (max-width:288px)
+{
+
+div input
+{
+    
+    margin-left: 3px;
+    
+}
+}
+
+
+
+
+
